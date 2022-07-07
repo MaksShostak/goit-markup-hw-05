@@ -385,8 +385,7 @@ header {
   color: var(--accent-color);
 }
 
-.work-group,
-.work-description {
+.work-group {
   margin-top: 0;
   margin-bottom: 0;
 
@@ -769,6 +768,13 @@ header {
   width: 100%;
   height: 100%;
   padding: 63px 24px;
+
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--primary-white-color);
   background-color: rgba(33, 150, 243, 0.9);
 
   transition-property: transform;
